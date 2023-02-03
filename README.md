@@ -22,7 +22,7 @@ Add test transactions in json format, e.g.: transactions1.json file and pass tha
 
 **Following is the test results:**
 
-![result](./test_result.png)
+![result](./script_result.png)
 
 ## Solution description
 
