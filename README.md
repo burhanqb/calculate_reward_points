@@ -20,27 +20,14 @@ $ python3 calculate_rewards.py transactions.json
 
 Add test transactions in json format, e.g.: transactions1.json file and pass that file to the python command
 
-```shell
-$ python3 -m pytest -v
-
-or 
-
-$ pytest
-```
-
 **Following is the test results:**
 
-![result](./img/test_result.png)
+![result](./test_result.png)
 
-In the **/cardsdeck_rounds/test/test_calCardRounds.py** file, the test cases are based on following:
-```python
-1. By passing the variable
-   
-   input_deck_size = 7
+## Solution description
 
-and
+1. Created a dict from the input transactions with the key:merchant_code and the value:amount_cents.
+2. Rules are aligned from the most valuable to the least valuable reward points.
+3. Rule 7 is used to calculate the spending for all other purchases (including leftover amount)
 
-2. By passing the value of card deck size 10
-
-```
 
