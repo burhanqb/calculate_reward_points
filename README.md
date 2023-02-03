@@ -3,7 +3,7 @@
 ## Execute the script
 
 **Version**
-- python: Python 3.9.5
+- python: Python 3.10.8
 
 **Required Python modules**
 - import math
