@@ -29,5 +29,3 @@ Add test transactions in json format, e.g.: transactions1.json file and pass tha
 1. Created a dict from the input transactions with the key:merchant_code and the value:amount_cents.
 2. Rules are aligned from the most valuable to the least valuable reward points.
 3. Rule 7 is used to calculate the spending for all other purchases (including leftover amount)
-
-
