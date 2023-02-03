@@ -1,4 +1,4 @@
-# calculate_rewrad_points
+# calculate_reward_points
 
 ## Execute the script
 
